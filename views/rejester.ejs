@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style2.css" />
+</head>
+<body>
+    <div class="container">
+        <form name="form1" method="post" onsubmit="return valid1()">
+            <label for="fname">write your First name</label>
+            <input value="<%=formData.fname || '' %>" class="f0 fild" id="fname" name="fname" type="text">
+
+            <label for="lname">write your last name</label>
+            <input  value="<%=formData.lname || '' %>"  class="f1 fild" id="lname" name="lname" type="text">
+
+            <label for="email">write your Email</label>
+            <input  value="<%=formData.email || '' %>"  class="f2 fild" id="email" name="email"  >
+
+            <label for="phone">write your Phone number</label>
+            <input  value="<%=formData.phone || '' %>"  class="f3 fild" id="phone" name="phone" >
+
+            <label for="passwordb">set your password</label>
+            <input  value=""  class="f4 fild" id="passwordb" type="password" >
+
+            <label for="passworda">confirm your password</label>
+            <input  value=""  class="f5 fild" id="passworda" name="password" type="password" >
+
+            <input class="submit" value="LOG IN" type="submit">
+        </form>
+        <div class="links" >
+            <ul>
+                <li>
+                    <a href="/login">
+                        Alredy have an account ?
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>  
+    <script src="js/jquery.js"></script>
+   <script src="js/script1.js" ></script>
+   <script>
+        let IV = "<%=IV%>";
+        
+        if(IV=="phone"){
+            move(3);
+        }
+        else if(IV=="email"){
+            move(2);
+        }
+   </script>
+</body>
+</html>

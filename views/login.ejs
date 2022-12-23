@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="/profile" method="post">
+        <label for="email">write your Email</label>
+        <input
+          id="email"
+          value="<%=data || '' %>"
+          placeholder="enter your email"
+          name="email"
+          type="email"
+          required
+        />
+        <label for="password">write your password</label>
+        <input
+          id="password"
+          placeholder="Password"
+          name="password"
+          type="password"
+          required
+        />
+        <input class="submit" value="LOG IN" type="submit" />
+      </form>
+      <div class="links">
+        <ul>
+          <li>
+            <a href="/rejester"> Don't you have an account ? </a>
+            <a href="/forgotn"> have you forgot you password? </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

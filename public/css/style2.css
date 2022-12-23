@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:"Comic Sans MS",Arial, Helvetica, sans-serif;
+}
+form>*{
+    display: block;
+    margin:10px 0;
+    border:none;
+}
+body{
+    background-color: antiquewhite;
+    height:100vh;
+    width:100%;
+    display:grid;
+    place-items: center;
+}
+
+.container{
+    background-color: rgb(180, 224, 210);
+    height:auto;
+    width:350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding-top: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 0px 5px #d3d3d3;
+}
+
+
+/*input[type=password],
+input[type=number],
+input[type=text],
+input[type=email],
+input[name=phone]{
+    height: 30px;
+    background-color: blanchedalmond;
+    font-size: large;
+    border-radius:5px;
+    padding-left:10px ;
+}*/
+.fild{
+    height: 30px;
+    background-color: blanchedalmond;
+    font-size: large;
+    border-radius:5px;
+    padding-left:10px ;
+}
+
+
+
+label{
+    font-size: larger;
+}
+
+.submit{
+    width:50%;
+    place-self: center;
+    height:30px;
+    border:none;
+    margin-top:20px;
+    border-radius: 15px;
+    background-color: rgb(37, 136, 103);
+}
+
+ul *{
+    display:block;
+}
+ul{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    font-size: 17px;
+    color:rgb(89, 105, 64);
+}
+
+
+.container::after{
+    content:"";
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-color: rgb(49, 48, 48);
+    z-index: -1;
+    clip-path: circle(70% at 0% 10%);
+}
