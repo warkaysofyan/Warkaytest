@@ -1,1 +1,10 @@
-[{"fname":"sofyan","lname":"warkay","email":"mrdevwar@gmail.com","phone":"+212642092565","password":"$2b$10$UnpkOqZD6Lm7Gsq6/WMrUO5D46AtnCG/IGWNOhpQwGMSE8BaAmtP.","id":1},{"fname":"sofyan","lname":"warkay","email":"admin@gmail.com","phone":"+212642092563","password":"$2b$10$/5PM2QyFWn9vSvKZQUtJr.em.AmzGOpQ3cjGvUPhUVomr0ucvD.n2","id":2},{"fname":"sofyan","lname":"warkay","email":"adin@gmail.com","phone":"+212642092560","password":"$2b$10$jzPu4vLw6YAjEcdeQYbohu6DBuwz/5vBipu.e8ACiswYlpaE.pjQK","id":3},{"fname":"yosssef","lname":"elmodan","email":"moudan@gmail.com","phone":"+212642092590","password":"$2b$10$u9ge/iRUFKo6g8usAYQkC.gGeZ0nhu73rwOlhizfNaOAqrDr4tohK","id":4},{"fname":"youness","lname":"warkay","email":"wa7id@gmail.com","phone":"+212642092525","password":"$2b$10$3M11qtzObHBG9CnImwkQiOtFWloAxJHnXxQXQa3iYq7GYgE1Tpen2","id":5},{"fname":"sofyan","lname":"warkay","email":"mrwar@gmail.com","phone":"+212642092561","password":"$2b$10$WL1iNJSWsub/nh0gJ9RP7eL0m8fNWUGGCs42suW.9TckGpxGa7R1q","id":6},{"fname":"yasmin","lname":"kadi","email":"yas@gmail.com","phone":"0123456789","password":"$2b$10$D9f22o/QT3cypFxKQssGmegjYV23cMUs6i/UESj8Rv5j0KcJUJ6mK","id":7},{"fname":"essam","lname":"choaibi","email":"essam@glmail.com","phone":"0621091453","password":"$2b$10$TbLG1YnKyvcB78g/V502ye5gBUT0r5krZKaHggV41g6s0kGQkI7mi","id":8},{"fname":"asmae","lname":"warkay","email":"asmae@gmail.com","phone":"0642092564","password":"$2b$10$TLQaY243ett5u8XjfyXyduEdZNVjVM09fvnClTr0L7ieveVd7DgBu","id":9}]
+[
+  {
+    "fname": "sofyan",
+    "lname": "warkay",
+    "email": "mrdevwar@gmail.com",
+    "phone": "+212642092565",
+    "password": "$2b$10$UnpkOqZD6Lm7Gsq6/WMrUO5D46AtnCG/IGWNOhpQwGMSE8BaAmtP.",
+    "id": 1
+  }
+]

@@ -10,10 +10,9 @@ const userRouter = require("./routes/users");
 //EJS view engin
 
 app.set("view engine", "ejs");
-
+app.use(morgan("dev"));
 // Routes
 
-app.use(morgan(" dev "));
 app.use("/", userRouter);
 
 app.use("/", (req, res, next) => {
