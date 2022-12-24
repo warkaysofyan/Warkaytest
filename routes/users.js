@@ -11,6 +11,10 @@ router
 
 router.get("/login", login.getLogin);
 
+router.get("/", (req, res) => {
+  res.redirect("/login");
+});
+
 router
   .get("/profile", (req, res) => {
     res.redirect("/login");

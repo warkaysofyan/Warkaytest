@@ -16,7 +16,7 @@ app.set("view engine", "ejs");
 app.use(morgan(" dev "));
 app.use("/", userRouter);
 
-app.use((req, res, next) => {
+app.use("/", (req, res, next) => {
   res.render("404");
 });
 
