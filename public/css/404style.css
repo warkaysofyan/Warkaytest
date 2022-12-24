@@ -3,3 +3,34 @@
   margin: 0;
   font-family: sans-serif;
 }
+
+body {
+  background-color: rgb(88, 88, 194);
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+.container {
+  display: flex;
+}
+.container .mainmsg {
+  font-size: 3rem;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  margin-right: 20px;
+}
+.container .description {
+  margin-top: 15px;
+}
+.container .description h1 {
+  letter-spacing: 3px;
+}
+.container .description h3 {
+  letter-spacing: 1.5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
